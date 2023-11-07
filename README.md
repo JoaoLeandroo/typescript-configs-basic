@@ -1,20 +1,19 @@
-npm install typescript -D
+    npm install typescript -D
 
-npx tsc --init
+    npx tsc --init
 
 *
+    Dentro do tsconfig.json
 
-Dentro do tsconfig.json
+    target - "es2016" *Geralmente esse ja vem configurado
 
-target - "es2016" *Geralmente esse ja vem configurado
+    outdir - aqui é colocada a pasta onde sera transpilado o codigo de typescript para javascript
 
-outdir - aqui é colocada a pasta onde sera transpilado o codigo de typescript para javascript
+    rootdir - Aqui é onde fica o codigo de distribuição
 
-rootdir - Aqui é onde fica o codigo de distribuição
+    sourceMap - Deixar como true isso vai ajudar a debugar o codigo
 
-sourceMap - Deixar como true isso vai ajudar a debugar o codigo
-
-npx tsc - vai buildar o projeto
+    npx tsc - vai buildar o projeto
 
 
 *  
@@ -24,3 +23,5 @@ npx tsc - vai buildar o projeto
 
     npx sucrase-node src/index.ts
 
+*
+    Configurações para executar o typescript mais rapidamente, utilizando o sucrase dentro do code runner, dentro da pasta .vscode
