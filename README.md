@@ -25,3 +25,7 @@
 
 *
     Configurações para executar o typescript mais rapidamente, utilizando o sucrase dentro do code runner, dentro da pasta .vscode
+
+    Comando tsc --watch, monitora em tempo real tudo que está sendo feito no typescript e compila imediamente para javascript
+
+            tsc --watch
